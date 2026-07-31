@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+.basic,
+.highlighted{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.basic{
+    background-color: black;
+    color: white;
+}
+
+.highlighted{
+    background-color: yellow;
+}
