@@ -1,6 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 .logo {
@@ -22,4 +34,14 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+
+  display: inline-block;
+}
+
+.left-links ul,
+.right-links ul{
+  display: flex;
+  /* height: 100%;
+  align-items: center; */
+  gap: 1rem;
 }
